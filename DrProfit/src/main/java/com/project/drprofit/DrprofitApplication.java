@@ -1,13 +1,13 @@
-package com.drproject;
+package com.project.drprofit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DrprojectApplication {
+public class DrprofitApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DrprojectApplication.class, args);
+		SpringApplication.run(DrprofitApplication.class, args);
 	}
 
 }
