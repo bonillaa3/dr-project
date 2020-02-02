@@ -1,0 +1,6 @@
+html {
+    margin: 0px;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 200), rgb(59, 97, 155))  ;
+    font-size: 1.5em;
+}

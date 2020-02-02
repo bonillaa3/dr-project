@@ -1,0 +1,84 @@
+.title{
+    text-align: center;
+
+}
+
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 17%;
+}
+
+.net-total-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 15%;
+}
+
+.net-total {
+    float: right;
+}
+
+.button {
+    padding: 8px;
+    border-radius: 7px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+li {
+    padding: 10px 0px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(100,100,100, .2); 
+}
+
+.category-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.total-header {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.left-column, .right-column{
+    width: 30%;
+    border: 2px solid black;
+    padding: 0px 80px;
+}
+
+.category-total-expense, .category-total-profit {
+    float: right;
+    padding-top: 10px;
+}
+
+.total-expense, .total-profit {
+    float: right;
+}
+
+.category-total-expense, .total-expense{
+    color: red;
+    font-weight: bold;
+}
+
+.category-total-profit, .total-profit, .net-total{
+    color: green;
+    font-weight: bold;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+hr {
+    padding: 0px;
+    margin: 0 auto;
+    width: 75%;
+}

@@ -1,0 +1,55 @@
+
+
+.category-list {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.category-list li {
+    padding-bottom: 25px;
+}
+
+.total-header {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.column{
+    margin: 25px auto;
+    width: 27%;
+    border: 2px solid black;
+    padding: 0px 100px;
+}
+
+.category-total-expense{
+    float: right;
+}
+
+.total-expense {
+    float: right;
+}
+
+.category-total-expense, .total-expense{
+    color: red;
+    font-weight: bold;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    margin-left: 35px;
+    display: inline-flex;
+    padding: 8px;
+ 
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(100,100,100,.2); 
+}
